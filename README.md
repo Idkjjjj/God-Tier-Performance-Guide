@@ -63,8 +63,8 @@ A comprehensive, no-nonsense guide to optimize Windows 11 for maximum performanc
 6. Review and adjust individual settings as needed
 
 ### 5. Additional Optimizations
-Execute the provided batch script containing commands from [HerXayah's Gaming Tweaks](https://github.com/HerXayah/Use-Gaming-Tweaks)
-
+Execute the provided .bat file in release's section of this page script containing commands from HerXayah's Gaming Tweaks
+and right click and merge the main.reg
 ## 🙏 Credits
 
 This guide aggregates work from several prominent Windows optimization experts:
