@@ -1,60 +1,86 @@
-# God-Tier-Performance-Guide
-No BS God Tier Performance Guide for Windows 11. Decrease latency, improve performance clear bloat.
-This guide isn't very detailed you can find usage of most of these tools/scripts from their own repos.
-Firstly Credits to:
-[nezhatweaks](https://github.com/nezhatweaks)
-For their tweaks
-[Optimizer by hellzerg](https://github.com/hellzerg/optimizer)
-for the optimizer
-[ChrisTitusUtil](https://github.com/ChrisTitusTech/winutil)
-For his tool
-CHEF-KOCH
-for his scripts cant find his github i think he got terminated
-[HerXayah](https://github.com/HerXayah/Use-Gaming-Tweaks)
-For scripts
-[BleachBit](https://www.bleachbit.org/)
-For software
-[Rebar](https://github.com/xCuri0/ReBarUEFI)
-For rebar for amd gpus
-[Rebar Nvidia](https://github.com/terminatorul/NvStrapsReBar)
-For Nvidia GPUs (Turring GTX 1600 / RTX 2000 GPUs)
-GUIDE:
-(Cool way to start the guide i know)
-Disable your antivirus as some tweaks might not work 
-Dont follow blindly think for yourself
-And dont blame me if something doesn't work as expected
-REMEMBER TO TAKE A RESTORE POINT FOR BACKUP!
+# God-Tier Performance Guide for Windows 11
 
-Firstly download these:
-[BleachBit - Storage cleaner](https://www.bleachbit.org/download/windows)
-[NZTSAPP - Some really cool tweaks](https://github.com/nezhatweaks/nztsapp/releases)
-[Hellzerg Optimizer](https://github.com/hellzerg/optimizer/releases)
-!Rebar! - Use Amd if you have a amd gpu OR Use nvidia one but read their descriptions carefully might !BRICK your pc
-[AMD or any other](https://github.com/xCuri0/ReBarUEFI/releases)
-[Nvidia Turring GTX 1600 / RTX 2000 GPUs](https://github.com/terminatorul/NvStrapsReBar)
+A comprehensive, no-nonsense guide to optimize Windows 11 for maximum performance, reduced latency, and minimal bloatware. This guide combines various trusted tools and tweaks from the Windows optimization community to deliver a superior computing experience.
 
-1.Open Bleach bit and tick everything except passwords and cookies for browsers!
-Click on clean 
-Magic happens
+## ⚠️ Important Disclaimers
 
-2.Use chris titus utility from powershell and do whatever you think is cool
-[ChrisTitusUtil](https://github.com/ChrisTitusTech/winutil)
-Use the powershell command in the main page not in releases.
+- **CREATE A SYSTEM RESTORE POINT BEFORE PROCEEDING!**
+- Disable antivirus temporarily during optimization (some tweaks may be flagged)
+- Evaluate each optimization carefully based on your specific needs
+- Results may vary depending on your hardware configuration
+- The author assumes no responsibility for any issues that may arise
 
-3.Similarly for hellzerg optimizer enable optimizations you want
-[Hellzerg](https://github.com/hellzerg/optimizer/releases)
+## 🛠️ Required Tools
 
-4.Finally my favourite section that makes this guide different from other guides
-Use NZTSApp i will guide you on this because its kind of confusing
-[NZTS](https://github.com/nezhatweaks/nztsapp/releases)
+### Essential Software
+1. **[BleachBit](https://www.bleachbit.org/download/windows)** - Advanced system cleaner
+2. **[NZTSAPP](https://github.com/nezhatweaks/nztsapp/releases)** - Performance optimization suite
+3. **[Hellzerg Optimizer](https://github.com/hellzerg/optimizer/releases)** - System optimization tool
+4. **[Chris Titus Windows Utility](https://github.com/ChrisTitusTech/winutil)** - Windows configuration tool
 
-- 1. Disable your antivirus this usually gets flagged as a malware
-- 2. Run the exe after extracting the zip file
-  ![image](https://github.com/user-attachments/assets/43c56486-5b32-41b2-9d68-a762bbcd7cad)
-- 3. Click on this little button ![image](https://github.com/user-attachments/assets/54b4791f-d35a-476a-96b0-3932d15e0847)
-- 4. Click on this flash button and continue tweaking the settings or leave. ![image](https://github.com/user-attachments/assets/5758b12a-4faf-43f3-8f06-e02a707b0790)
+### ReBar Support Tools (Optional)
+- **AMD GPUs**: [ReBarUEFI](https://github.com/xCuri0/ReBarUEFI/releases)
+- **NVIDIA GPUs** (Turing GTX 1600 / RTX 2000 series): [NvStrapsReBar](https://github.com/terminatorul/NvStrapsReBar)
 
-5. Use the uploaded release batch script it contains some commands given in [HerXayah's guide](https://github.com/HerXayah/Use-Gaming-Tweaks)
+⚠️ **WARNING**: Carefully read ReBar tool documentation before use. Incorrect implementation may damage your system.
 
-Peace!
+## 📋 Optimization Steps
 
+### 1. System Cleaning with BleachBit
+1. Install and launch [BleachBit](https://www.bleachbit.org/download/windows)
+2. Select all cleaning options **EXCEPT**:
+   - Browser passwords
+   - Browser cookies
+3. Run the cleaner
+4. Wait for completion
+
+### 2. Windows Utility Optimization
+1. Open PowerShell as Administrator
+2. Execute the [Chris Titus Utility](https://github.com/ChrisTitusTech/winutil) installation command from the main repository page
+3. Use the utility to:
+   - Remove bloatware
+   - Configure privacy settings
+   - Install essential software
+   - Optimize system settings
+
+### 3. Hellzerg Optimizer
+1. Download and run the latest release from [Hellzerg Optimizer](https://github.com/hellzerg/optimizer/releases)
+2. Review available optimizations
+3. Select options based on your needs:
+   - Privacy settings
+   - Performance tweaks
+   - Service optimizations
+   - Network improvements
+
+### 4. NZTSAPP Implementation
+[NZTSAPP](https://github.com/nezhatweaks/nztsapp/releases) requires special attention due to its advanced nature:
+
+1. Temporarily disable antivirus
+2. Extract and run the NZTSAPP executable
+3. Navigate to the main interface
+4. Click the settings button (gear icon)
+5. Use the "flash" button to apply optimizations
+6. Review and adjust individual settings as needed
+
+### 5. Additional Optimizations
+Execute the provided batch script containing commands from [HerXayah's Gaming Tweaks](https://github.com/HerXayah/Use-Gaming-Tweaks)
+
+## 🙏 Credits
+
+This guide aggregates work from several prominent Windows optimization experts:
+
+- [nezhatweaks](https://github.com/nezhatweaks) - Core tweaks and NZTSAPP
+- [hellzerg](https://github.com/hellzerg/optimizer) - Optimizer tool
+- [ChrisTitusTech](https://github.com/ChrisTitusTech/winutil) - Windows utility
+- CHEF-KOCH - Various optimization scripts
+- [HerXayah](https://github.com/HerXayah/Use-Gaming-Tweaks) - Gaming optimization scripts
+- [BleachBit Team](https://www.bleachbit.org) - System cleaning tool
+- [xCuri0](https://github.com/xCuri0/ReBarUEFI) - AMD ReBar implementation
+- [terminatorul](https://github.com/terminatorul/NvStrapsReBar) - NVIDIA ReBar implementation
+
+## 📝 Notes
+
+- This guide provides a framework for optimization. Users should understand each modification before applying it.
+- Some tweaks may need adjustment based on your specific hardware and use case.
+- Regular system backups are recommended when implementing performance modifications.
+- For detailed usage instructions of specific tools, refer to their respective repositories.
